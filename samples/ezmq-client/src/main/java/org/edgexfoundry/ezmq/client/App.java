@@ -99,12 +99,12 @@ public class App {
         System.out.println("\nRe-run the application as shown in below examples: ");
         System.out.println("\n  (1) For subscribing without topic: ");
         System.out.println(
-                "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip 107.108.81.116 -port 5562");
+                "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip 0.0.0.0 -port 5562");
         System.out.println(
                 "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip localhost -port 5562");
         System.out.println("\n  (2) For subscribing with topic: ");
         System.out.println(
-                "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip 107.108.81.116 -port 5562 -t topic1");
+                "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip 0.0.0.0 -port 5562 -t topic1");
         System.out.println(
                 "      java -jar target/edgex-ezmq-subscriber-sample.jar -ip localhost -port 5562 -t topic1");
         System.exit(-1);
